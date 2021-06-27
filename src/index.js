@@ -3,12 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Clock from './Clock';
+import Count from './Count';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
     <Clock />
+    <Count />
   </React.StrictMode>,
   document.getElementById('root')
 );
