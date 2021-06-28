@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Clock from './Clock';
-import Count from './Count';
+import Clock from './pages/clockPage/Clock';
+import Count from './pages/countPage/Count';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
